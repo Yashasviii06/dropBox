@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        .background{
+            background-color: #efc1de;
+            height: 100vh;
+            width: 100%;
+            padding: 100px;
+        }
+        .container{
+            min-height: 265px;
+            width: 355px;
+            border-radius: 15px;
+            box-shadow:  0px 0px 6px 3px #e9e9e9;
+            padding: 15px;
+            background-color: rgb(255, 255, 255);
+            
+        }
+        h1{
+            text-align: center;
+        }
+        ul li{
+            list-style-type: none;
+            color: rgb(100, 18, 252);
+            font-size: 18px;
+            text-align: left;
+        }
+        .text{
+            padding: 10px;
+                  
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+    <div class="container">
+        <h1> Hey! What's up... </h1>
+        <h2>What do you like to do today?</h2>
+        <div class="text">
+        <input type="text" id="input"> <button id="add">+</button>
+        </div>
+        <ul id="list"></ul>
+    </div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
